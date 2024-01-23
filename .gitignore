@@ -1,7 +1,7 @@
-**/ appsettings.json
+**/appsettings.json
 **/obj
 **/bin
 .vs/
-/obj
-/bin
-/Debug
+obj
+bin
+Debug
