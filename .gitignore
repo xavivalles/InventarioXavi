@@ -1,19 +1,4 @@
+**/ appsettings.json
+**/ obj
+**/ bin
 .vs/
-.vs/*.dbtcache.v2
-/build/
-*.suo
-*.user
-_ReSharper.*/
-*.sdf
-bin/
-obj/
-Debug/
-Release/
-*.opensdf
-*.tlog
-*.log
-TestResult.xml
-*.VisualState.xml
-Version.cs
-Version.h
-Version.cpp
