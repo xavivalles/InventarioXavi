@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SistemaInventario.AccesoDatos.Repositorio.Repositorio;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,7 +18,7 @@ namespace SistemaInventario.AccesoDatos.Repositorio.IRepositorio
         IInventarioRepositorio Inventario { get; }
         IInventarioDetalleRepositorio InventarioDetalle { get; }
         IKardexInventarioRepositorio KardexInventario { get; }
-
+        ICompaniaRepositorio Compania { get; }
         Task Guardar();
     }
 }
