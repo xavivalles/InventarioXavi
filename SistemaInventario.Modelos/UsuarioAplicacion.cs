@@ -17,6 +17,9 @@ namespace SistemaInventario.Modelos
         [Required(ErrorMessage = "Apellidos es requerido")]
         [MaxLength(200)]
         public string Apellidos { get; set; }
+        [Required(ErrorMessage = "Direccion es requerido")]
+        [MaxLength(60)]
+        public string Direccion { get; set; }
         [Required(ErrorMessage = "Ciudad es requerido")]
         [MaxLength(60)]
         public string Ciudad { get; set; }
